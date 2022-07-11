@@ -1,9 +1,9 @@
 <template>
   <div ref="wrapper" :class=wrapperClass>
-    <HiddenFields />
-    <Control ref="control" />
-    <MenuPortal v-if="appendToBody" ref="portal" />
-    <Menu v-else ref="menu" />
+     <HiddenFields />
+     <Control ref="control" />
+     <MenuPortal v-if="appendToBody" ref="portal" />
+    <Menu v-else ref="menu" /> 
   </div>
 </template>
 

@@ -63,7 +63,6 @@ const Option = {
 
     renderSubOptionsList() {
       if (!this.shouldExpand) return null;
-      console.log(this.renderSubOptions());
       return h(
         "div",
         {

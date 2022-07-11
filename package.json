@@ -1,6 +1,6 @@
 {
   "name": "@tanbo800/vue3-treeselect",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "description": "Tree select hierarchical component for vue 3 (next)",
   "main": "dist/vue3-treeselect.common.js",
   "unpkg": "dist/vue3-treeselect.umd.js",
@@ -56,13 +56,13 @@
     "vue": "^3.0.0"
   },
   "bugs": {
-    "url": "https://github.com/bosquig/vue3-treeselect/issues"
+    "url": "https://github.com/tanbo800/vue3-treeselect/issues"
   },
   "browserslist": [
     "Android >= 4.0",
     "iOS >= 8"
   ],
-  "homepage": "https://github.com/bosquig/vue3-treeselect",
+  "homepage": "https://github.com/tanbo800/vue3-treeselect",
   "files": [
     "dist/*.js",
     "dist/*.css",
@@ -88,6 +88,6 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bosquig/vue3-treeselect.git"
+    "url": "git+https://github.com/tanbo800/vue3-treeselect"
   }
 }

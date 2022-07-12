@@ -221,9 +221,9 @@ const Option = {
             count
           )
       );
-    }, 
+    },
     renderSubOptions() {
-      const { node } = this; 
+      const { node } = this;
       if (!node.childrenStates.isLoaded) return null;
       return node.children.map((childNode) => {
         return h(Option, {

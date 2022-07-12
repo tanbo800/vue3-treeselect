@@ -1475,7 +1475,7 @@ export default {
       this.menu.isOpen = true
       this.$nextTick(this.resetHighlightedOptionWhenNecessary)
       this.$nextTick(this.restoreMenuScrollPosition)
-      if (!this.options && !this.async) this.loadRootOptions()
+      if (!this.options && !this.async) this.loadRootOptions() 
       console.log(this.minChar);
       if (this.minChar == 0 && this.async) this.handleRemoteSearch();
       this.toggleClickOutsideEvent(true)

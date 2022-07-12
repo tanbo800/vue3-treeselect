@@ -1,6 +1,6 @@
 {
   "name": "@tanbo800/vue3-treeselect",
-  "version": "0.2.6",
+  "version": "0.3.1",
   "description": "Tree select hierarchical component for vue 3 (next)",
   "main": "dist/vue3-treeselect.common.js",
   "unpkg": "dist/vue3-treeselect.umd.js",
